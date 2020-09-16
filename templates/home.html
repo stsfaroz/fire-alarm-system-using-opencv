@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+	<b> ok</b>
+	<form method="POST" action="{{ url_for('result') }}" method="POST" enctype="multipart/form-data" class="request-form ftco-animate bg-primary">
+  <input type="text" name="username" placeholder="Enter user name">
+  <input type="text" name="password" placeholder="Enter password">
+  <input type="submit" value="Send" class="btn btn-secondary py-3 px-4">
+  {{result}}
+</form>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Name= vision based media player
+Exec=/home/stsfaroz/Documents/mani/final/test.py
+Icon=/home/stsfaroz/Documents/mani/final/mine.jpg
+Type=Application
